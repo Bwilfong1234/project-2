@@ -1,0 +1,31 @@
+Places,Lat,Long,crime_rate_for_county_violent,US_average_(violent),Crime_rate_for_county_property,US_average property,#restaurants,ave_rest_rating,#attractions,ave_attraction_rating,icon
+"Grand Canyon National Park, Arizona",36.0894076,-113.9643745,30.0,22.7,52.1,35.4,6,4.0,9,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png
+Yosemite National Park,37.4535194,-119.83130020000002,27.3,,56.2,,20,4.3,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png
+Yellowstone National Park,44.4162293,-110.7338633,12.9,,24.6,,20,3.7,20,4.7,https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png
+"Maui, Hawaii",20.8034103,-156.6181798,9.0,,26.6,,20,4.3,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Glacier National Park, Montana",48.6596968,-114.4062851,26.9,,22.7,,20,4.3,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png
+New York City,40.7579787,-73.9877313,28.2,,24.9,,20,4.3,20,4.5,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+" San Francisco, CA",37.808843200000005,-122.53429579999998,39.6,,79.2,,20,4.3,20,4.5,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+Washington D.C.,38.892981400000004,-77.01624179999999,56.2,,63.9,,20,4.3,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Honolulu, HI",21.2757207,-157.8296149,17.4,,43.4,,20,4.3,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Telluride, CO",37.9118527,-107.8695197,12.2,,44.7,,20,4.3,20,4.7,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Jackson Hole, WY",43.5965927,-110.864944,17.2,,24.1,,20,4.3,20,4.7,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+Lake Tahoe,39.0927182,-120.1850535,34.3,,27.3,,20,4.1,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Juneu, Alaska",58.3801282,-135.3187011,37.9,,55.6,,20,4.2,20,4.7,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+Grand Teton National Park,43.7507937,-110.9686991,17.2,,24.1,,20,4.3,20,4.7,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+Zion National Park,37.3220096,-113.1597754,10.6,,25.8,,20,4.0,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png
+"Kauai, HI",22.071483899999997,-159.66386609999998,8.5,,24.9,,20,4.3,20,4.7,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"San Diego, CA",32.7136879,-117.1763293,24.4,,31.4,,20,4.4,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Aspen, CO",39.2009222,-106.8778598,7.6,,62.5,,20,4.3,20,4.7,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"New Orleans, LA",29.957448100000004,-90.06513290000001,49.1,,56.8,,20,4.5,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Boston, MA",42.3376368,-70.99304000000001,37.3,,35.8,,20,4.4,20,4.5,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Chicago, IL",41.882552399999994,-87.6247401,49.9,,46.3,,20,4.4,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Seattle, WA",47.612943200000004,-122.482148,32.3,,76.9,,20,4.3,20,4.5,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Sedona, AZ",34.8543734,-111.83015800000001,13.8,,27.7,,20,4.2,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Miami, FL",25.7823907,-80.2994989,48.8,,62.7,,20,4.2,20,4.4,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Outer Banks, Kinnakeet, NC",35.533789899999995,-75.7759782,17.9,,62.0,,20,4.3,20,4.7,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Las Vegas, NV",36.1174891,-115.20146229999999,40.9,,43.4,,20,4.2,20,4.4,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+Charleston SC,32.8209674,-80.1105635,17.7,,35.9,,20,4.5,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Key West, FL",24.564635,-81.81564759999999,24.7,,62.5,,20,4.3,20,4.5,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+Lake Placid,43.9660525,-75.67734759999999,11.8,,23.9,,20,4.2,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png
+"Savannah, GA",32.0387665,-81.34036409999999,22.2,,51.5,,20,4.2,20,4.6,https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>poject3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between fixed-top">
+
+    <a class="bg-primary text-dark " href="index.html">
+        <h1>Home</h1>
+    </a>
+
+    <a class=" col-md-8" href="#">
+        <h1></h1>
+    </a>
+
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-1">
+            <li class="nav-item dropdown">
+                <a class="nav-link  dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        plots <span class="sr-only">(current)</span></a>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Landing_map.html">map</a>
+                    <a class="dropdown-item" href="crime_plot.html">crime map</a>
+                    <a class="dropdown-item" href="dex.html">Attraction Bar Chart</a>
+                    <a class="dropdown-item" href="dex2.html">crimebarchart</a>
+                    <div class="dropdown-divider"></div>
+                </div>
+
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-dark " href="data.html" tabindex="#">Data</a>
+            </li>
+        </ul>
+    </div>
+
+
+</nav>
+<div class="container">
+
+
+    <h1 class="display-4 text-primary">2</h1>
+    <h1 class=" text-primary"> Data</h1>
+    <hr class="my-4">
+    <p>The following table contains alll of the data used for the project</p>
+
+</div>
+
+<div class="container"></div>
+
+
+
+<table border="1" class="dataframe">
+    <thead>
+        <tr style="text-align: left;">
+            <th></th>
+            <th>Places</th>
+            <th>Lat</th>
+            <th>Long</th>
+            <th>crime_rate_for_county_violent</th>
+            <th>US_average_(violent)</th>
+            <th>Crime_rate_for_county_property</th>
+            <th>US_average property</th>
+            <th>#restaurants</th>
+            <th>ave_rest_rating</th>
+            <th>#attractions</th>
+            <th>ave_attraction_rating</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>0</th>
+            <td>Grand Canyon National Park, Arizona</td>
+            <td>36.089408</td>
+            <td>-113.964375</td>
+            <td>30.0</td>
+            <td>22.7</td>
+            <td>52.1</td>
+            <td>35.4</td>
+            <td>6</td>
+            <td>4.0</td>
+            <td>9</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>Yosemite National Park</td>
+            <td>37.453519</td>
+            <td>-119.831300</td>
+            <td>27.3</td>
+            <td>NaN</td>
+            <td>56.2</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Yellowstone National Park</td>
+            <td>44.416229</td>
+            <td>-110.733863</td>
+            <td>12.9</td>
+            <td>NaN</td>
+            <td>24.6</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>3.7</td>
+            <td>20</td>
+            <td>4.7</td>
+
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Maui, Hawaii</td>
+            <td>20.803410</td>
+            <td>-156.618180</td>
+            <td>9.0</td>
+            <td>NaN</td>
+            <td>26.6</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>Glacier National Park, Montana</td>
+            <td>48.659697</td>
+            <td>-114.406285</td>
+            <td>26.9</td>
+            <td>NaN</td>
+            <td>22.7</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>New York City</td>
+            <td>40.757979</td>
+            <td>-73.987731</td>
+            <td>28.2</td>
+            <td>NaN</td>
+            <td>24.9</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.5</td>
+        </tr>
+        <tr>
+            <th>6</th>
+            <td>San Francisco, CA</td>
+            <td>37.808843</td>
+            <td>-122.534296</td>
+            <td>39.6</td>
+            <td>NaN</td>
+            <td>79.2</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.5</td>
+
+        </tr>
+        <tr>
+            <th>7</th>
+            <td>Washington D.C.</td>
+            <td>38.892981</td>
+            <td>-77.016242</td>
+            <td>56.2</td>
+            <td>NaN</td>
+            <td>63.9</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>8</th>
+            <td>Honolulu, HI</td>
+            <td>21.275721</td>
+            <td>-157.829615</td>
+            <td>17.4</td>
+            <td>NaN</td>
+            <td>43.4</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>9</th>
+            <td>Telluride, CO</td>
+            <td>37.911853</td>
+            <td>-107.869520</td>
+            <td>12.2</td>
+            <td>NaN</td>
+            <td>44.7</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.7</td>
+
+        </tr>
+        <tr>
+            <th>10</th>
+            <td>Jackson Hole, WY</td>
+            <td>43.596593</td>
+            <td>-110.864944</td>
+            <td>17.2</td>
+            <td>NaN</td>
+            <td>24.1</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.7</td>
+
+        </tr>
+        <tr>
+            <th>11</th>
+            <td>Lake Tahoe</td>
+            <td>39.092718</td>
+            <td>-120.185053</td>
+            <td>34.3</td>
+            <td>NaN</td>
+            <td>27.3</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.1</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>12</th>
+            <td>Juneu, Alaska</td>
+            <td>58.380128</td>
+            <td>-135.318701</td>
+            <td>37.9</td>
+            <td>NaN</td>
+            <td>55.6</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.2</td>
+            <td>20</td>
+            <td>4.7</td>
+
+        </tr>
+        <tr>
+            <th>13</th>
+            <td>Grand Teton National Park</td>
+            <td>43.750794</td>
+            <td>-110.968699</td>
+            <td>17.2</td>
+            <td>NaN</td>
+            <td>24.1</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.7</td>
+
+        </tr>
+        <tr>
+            <th>14</th>
+            <td>Zion National Park</td>
+            <td>37.322010</td>
+            <td>-113.159775</td>
+            <td>10.6</td>
+            <td>NaN</td>
+            <td>25.8</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.0</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>15</th>
+            <td>Kauai, HI</td>
+            <td>22.071484</td>
+            <td>-159.663866</td>
+            <td>8.5</td>
+            <td>NaN</td>
+            <td>24.9</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.7</td>
+
+        </tr>
+        <tr>
+            <th>16</th>
+            <td>San Diego, CA</td>
+            <td>32.713688</td>
+            <td>-117.176329</td>
+            <td>24.4</td>
+            <td>NaN</td>
+            <td>31.4</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.4</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>17</th>
+            <td>Aspen, CO</td>
+            <td>39.200922</td>
+            <td>-106.877860</td>
+            <td>7.6</td>
+            <td>NaN</td>
+            <td>62.5</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.7</td>
+
+        </tr>
+        <tr>
+            <th>18</th>
+            <td>New Orleans, LA</td>
+            <td>29.957448</td>
+            <td>-90.065133</td>
+            <td>49.1</td>
+            <td>NaN</td>
+            <td>56.8</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.5</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>19</th>
+            <td>Boston, MA</td>
+            <td>42.337637</td>
+            <td>-70.993040</td>
+            <td>37.3</td>
+            <td>NaN</td>
+            <td>35.8</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.4</td>
+            <td>20</td>
+            <td>4.5</td>
+
+        </tr>
+        <tr>
+            <th>20</th>
+            <td>Chicago, IL</td>
+            <td>41.882552</td>
+            <td>-87.624740</td>
+            <td>49.9</td>
+            <td>NaN</td>
+            <td>46.3</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.4</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>21</th>
+            <td>Seattle, WA</td>
+            <td>47.612943</td>
+            <td>-122.482148</td>
+            <td>32.3</td>
+            <td>NaN</td>
+            <td>76.9</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.5</td>
+
+        </tr>
+        <tr>
+            <th>22</th>
+            <td>Sedona, AZ</td>
+            <td>34.854373</td>
+            <td>-111.830158</td>
+            <td>13.8</td>
+            <td>NaN</td>
+            <td>27.7</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.2</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>23</th>
+            <td>Miami, FL</td>
+            <td>25.782391</td>
+            <td>-80.299499</td>
+            <td>48.8</td>
+            <td>NaN</td>
+            <td>62.7</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.2</td>
+            <td>20</td>
+            <td>4.4</td>
+
+        </tr>
+        <tr>
+            <th>24</th>
+            <td>Outer Banks, Kinnakeet, NC</td>
+            <td>35.533790</td>
+            <td>-75.775978</td>
+            <td>17.9</td>
+            <td>NaN</td>
+            <td>62.0</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.7</td>
+
+        </tr>
+        <tr>
+            <th>25</th>
+            <td>Las Vegas, NV</td>
+            <td>36.117489</td>
+            <td>-115.201462</td>
+            <td>40.9</td>
+            <td>NaN</td>
+            <td>43.4</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.2</td>
+            <td>20</td>
+            <td>4.4</td>
+
+        </tr>
+        <tr>
+            <th>26</th>
+            <td>Charleston SC</td>
+            <td>32.820967</td>
+            <td>-80.110563</td>
+            <td>17.7</td>
+            <td>NaN</td>
+            <td>35.9</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.5</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>27</th>
+            <td>Key West, FL</td>
+            <td>24.564635</td>
+            <td>-81.815648</td>
+            <td>24.7</td>
+            <td>NaN</td>
+            <td>62.5</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.3</td>
+            <td>20</td>
+            <td>4.5</td>
+
+        </tr>
+        <tr>
+            <th>28</th>
+            <td>Lake Placid</td>
+            <td>43.966053</td>
+            <td>-75.677348</td>
+            <td>11.8</td>
+            <td>NaN</td>
+            <td>23.9</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.2</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+        <tr>
+            <th>29</th>
+            <td>Savannah, GA</td>
+            <td>32.038767</td>
+            <td>-81.340364</td>
+            <td>22.2</td>
+            <td>NaN</td>
+            <td>51.5</td>
+            <td>NaN</td>
+            <td>20</td>
+            <td>4.2</td>
+            <td>20</td>
+            <td>4.6</td>
+
+        </tr>
+    </tbody>
+</table>
